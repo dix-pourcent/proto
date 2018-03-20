@@ -1,0 +1,44 @@
+{
+  "name": "proto",
+  "version": "0.0.1",
+  "description": "An E-Commerce mock-up",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --port 12000 --host 0.0.0.0 --public localhost:12000 --content-base public/",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dix-pourcent/proto.git"
+  },
+  "keywords": [
+    "mock-up",
+    "e-commerce"
+  ],
+  "author": "Team Dix Pourcent <dix.pourcent.team@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dix-pourcent/proto/issues"
+  },
+  "homepage": "https://github.com/dix-pourcent/proto#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.3.0",
+    "css-loader": "^0.28.0",
+    "file-loader": "^1.1.8",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.17.0",
+    "watchify": "^3.8.0"
+  },
+  "dependencies": {
+    "pug": "^2.0.0-beta.12",
+    "pug-html-loader": "^1.1.4",
+    "pug-loader": "^2.3.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  }
+}
